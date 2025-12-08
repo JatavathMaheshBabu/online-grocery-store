@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>GroceryKart — Full Preview</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+<header class="site-header" role="banner">
+<div class="brand">GroceryStore</div>
+<div class="controls" role="search">
+<input id="searchInput" class="search" placeholder="Search products..." aria-label="Search products">
+<select id="categorySelect" class="select" aria-label="Filter category">
+<option value="all">All categories</option>
+</select>
+<button id="openCartMobile" class="drawer-toggle" aria-controls="cart" aria-expanded="false">Cart (<span id="cartCountMobile">0</span>)</button>
+</div>
+</header>
+<main class="main-grid">
+<section class="products" aria-labelledby="productsHeading">
+<h2 id="productsHeading">Products</h2>
+<div style="display:flex;gap:8px;margin-bottom:12px;align-items:center">
+<div class="muted">Filter:</div>
+<div id="tags" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+</div>
+<div id="productGrid" class="grid" role="list" aria-live="polite"></div>
+</section>
+<aside id="cart" class="cart" aria-labelledby="cartHeading">
+<h2 id="cartHeading">Shopping Cart</h2>
+<ul id="cartItems" class="cart-items" role="list"></ul>
+<div class="cart-footer">
+<div>
+<div class="muted">Total</div>
+<div style="font-weight:800;font-size:1.1rem" id="cartTotal">$0.00</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px">
+<button id="checkoutBtn" class="btn primary">Checkout</button>
+<button id="clearBtn" class="btn ghost">Clear</button>
+</div>
+</div>
+</aside>
+</main>
+<footer>&copy; 2025 GroceryKart — Demo preview</footer>
+</div>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
