@@ -5,7 +5,10 @@ It allows users to browse products, search, filter by category, add items to the
 
 The project uses **localStorage** to persist cart data across sessions, giving it a real e-commerce feel.
 
----
+🖥️ Live Demo
+🔗 Vercel Deployment: Add your deployed URL here
+Example: https://devjobs-tech-job-listing-board.vercel.app/
+
 
 ## 🚀 Features
 
