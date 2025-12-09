@@ -7,7 +7,7 @@ The project uses **localStorage** to persist cart data across sessions, giving i
 
 🖥️ Live Demo
 🔗 Vercel Deployment: Add your deployed URL here
-Example: https://devjobs-tech-job-listing-board.vercel.app/
+
 
 
 ## 🚀 Features
